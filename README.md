@@ -16,7 +16,7 @@ docker build -t bhm_workshop .
 docker run -p 8888:8888 \
            -v $(PWD)/data/:/home/jovyan/data/ \
            -v $(PWD)/notebooks/:/home/jovyan/notebooks/ \
-           pymc3
+           bhm_workshop
 ```
 
 And then just copy paste the http://127.... into your browser.
