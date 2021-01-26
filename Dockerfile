@@ -5,8 +5,8 @@ LABEL maintainer "Sven Thies <sven_thies@web.de>"
 RUN python -m pip install --upgrade pip
 
 # Install python packages
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+COPY requirements.txt /
+RUN pip install -r /requirements.txt
 
 # Remove work folder
 RUN rm -r /home/jovyan/work

@@ -1,10 +1,12 @@
-# Practical workshop on Bayesian Hierarchical Models (BHMs)
+# Practical workshop on Bayesian Hierarchical Models
 
 ## Agenda
 
-Theory 
-
-Practicing
+1. Statistische Modellierung vs. Machine Learning
+2. Unsicherheit beherrschen: Bayessche Modelle
+    * Praxisteil I: Bayessche Lineare Modelle
+3. Informationen Teilen: Bayessche Hierarchische Modelle
+    * Praxisteil II: Bayessche Hierarchische Modelle
 
 ## Spin up the environment
 
@@ -15,7 +17,7 @@ docker build -t bhm_workshop .
 ```bash
 docker run -p 8888:8888 \
            -v $(PWD)/data/:/home/jovyan/data/ \
-           -v $(PWD)/notebooks/:/home/jovyan/notebooks/ \
+           -v $(PWD)/praxisteil/:/home/jovyan/praxisteil/ \
            bhm_workshop
 ```
 
