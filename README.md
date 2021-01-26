@@ -21,7 +21,7 @@ docker run -p 8888:8888 \
            bhm_workshop
 ```
 
-And then just copy paste the http://127.... into your browser.
+And then just copy paste the http://127.... (with token) into your browser.
 
 If you want to add additional packages you can do so in two ways:
 - Add them permanently by adding it to the requirements.txt.
