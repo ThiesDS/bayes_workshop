@@ -2,13 +2,13 @@
 
 ## Agenda
 
-I. Theorie
+1. Theorie
     1. Machine Learning vs. Statistische Modellierung
     2. Bayessche Grundlagen
     3. Coin Flip Beispiel
     4. Pymc3
 
-II. Praxis
+2. Praxis
     1. Teil I: Unsicherheit beherrschen: Bayessche Lineare Modelle
     2. Teil II: Informationen teilen: Bayessche Hierarchische Modelle
 
