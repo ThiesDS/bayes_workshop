@@ -3,13 +3,13 @@
 ## Agenda
 
 1. Theorie
-    #. Machine Learning vs. Statistische Modellierung
-    #. Grundlagen der Bayesschen Modellierung
-    #. Pymc3 – Ein probabilistisches Programmierframework
+    i. Machine Learning vs. Statistische Modellierung
+    ii. Grundlagen der Bayesschen Modellierung
+    iii. Pymc3 – Ein probabilistisches Programmierframework
 
 2. Praxis
-    #. Unsicherheit beherrschen: Bayessche Lineare Modelle
-    #. Informationen teilen: Bayessche Hierarchische Modelle
+    i. Unsicherheit beherrschen: Bayessche Lineare Modelle
+    ii. Informationen teilen: Bayessche Hierarchische Modelle
 
 ## Spin up the environment
 
