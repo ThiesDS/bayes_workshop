@@ -3,14 +3,13 @@
 ## Agenda
 
 1. Theorie
-    1. Machine Learning vs. Statistische Modellierung
-    2. Bayessche Grundlagen
-    3. Coin Flip Beispiel
-    4. Pymc3
+    #. Machine Learning vs. Statistische Modellierung
+    #. Grundlagen der Bayesschen Modellierung
+    #. Pymc3 – Ein probabilistisches Programmierframework
 
 2. Praxis
-    1. Teil I: Unsicherheit beherrschen: Bayessche Lineare Modelle
-    2. Teil II: Informationen teilen: Bayessche Hierarchische Modelle
+    #. Unsicherheit beherrschen: Bayessche Lineare Modelle
+    #. Informationen teilen: Bayessche Hierarchische Modelle
 
 ## Spin up the environment
 
