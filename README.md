@@ -2,13 +2,19 @@
 
 ## Agenda
 
-1. Statistische Modellierung vs. Machine Learning
-2. Unsicherheit beherrschen: Bayessche Modelle
-    * Praxisteil I: Bayessche Lineare Modelle
-3. Informationen Teilen: Bayessche Hierarchische Modelle
-    * Praxisteil II: Bayessche Hierarchische Modelle
+I. Theorie
+    1. Machine Learning vs. Statistische Modellierung
+    2. Bayessche Grundlagen
+    3. Coin Flip Beispiel
+    4. Pymc3
+
+II. Praxis
+    1. Teil I: Unsicherheit beherrschen: Bayessche Lineare Modelle
+    2. Teil II: Informationen teilen: Bayessche Hierarchische Modelle
 
 ## Spin up the environment
+
+Install docker on your environment following [these](https://docs.docker.com/get-docker/) instructions.
 
 ```bash
 docker build -t bhm_workshop .
