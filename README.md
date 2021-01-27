@@ -26,7 +26,7 @@ Run the container with the following command:
 ```bash
 docker run -p 8888:8888 \
            -v $(PWD)/data/:/home/jovyan/data/ \
-           -v $(PWD)/praxisteil/:/home/jovyan/praxisteil/ \
+           -v $(PWD)/2_praxis/:/home/jovyan/praxis/ \
            bhm_workshop
 ```
 
