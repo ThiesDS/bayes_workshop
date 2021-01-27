@@ -16,9 +16,13 @@
 
 Install docker on your environment following [these](https://docs.docker.com/get-docker/) instructions.
 
+After having installed docker, build the environment as follows (this needs to be done only once):
+
 ```bash
 docker build -t bhm_workshop .
 ```
+
+Run the container with the following command:
 
 ```bash
 docker run -p 8888:8888 \
