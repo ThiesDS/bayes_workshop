@@ -3,19 +3,19 @@
 ## Agenda
 
 1. Theorie
-    i. Machine Learning vs. Statistische Modellierung
-    ii. Grundlagen der Bayesschen Modellierung
-    iii. Pymc3 – Ein probabilistisches Programmierframework
+    1. Machine Learning vs. Statistische Modellierung
+    2. Grundlagen der Bayesschen Modellierung
+    3. Pymc3 – Ein probabilistisches Programmierframework
 
 2. Praxis
-    i. Unsicherheit beherrschen: Bayessche Lineare Modelle
-    ii. Informationen teilen: Bayessche Hierarchische Modelle
+    1. Unsicherheit beherrschen: Bayessche Lineare Modelle
+    2. Informationen teilen: Bayessche Hierarchische Modelle
 
 ## Spin up the environment
 
 Install docker on your environment following [these](https://docs.docker.com/get-docker/) instructions.
 
-After having installed docker, build the environment as follows (this needs to be done only once):
+After having installed docker, build the image as follows (this needs to be done only once):
 
 ```bash
 docker build -t bhm_workshop .
