@@ -9,7 +9,8 @@ RUN python -m pip install --upgrade pip
 # Install python packages
 COPY requirements.txt /
 RUN pip install -r /requirements.txt
-RUN jupyter contrib nbextension install 
+RUN conda install -c conda-forge python-graphviz
+RUN jupyter contrib nbextension install
 
 # Remove work folder
 RUN rm -r /home/jovyan/work
