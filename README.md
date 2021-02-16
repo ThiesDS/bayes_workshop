@@ -18,7 +18,7 @@ Install docker on your environment following [these](https://docs.docker.com/get
 After having installed docker, build the image as follows (this needs to be done only once):
 
 ```bash
-docker build -t bhm_workshop .
+docker build -t bayes_workshop .
 ```
 
 Run the container with the following command:
@@ -29,7 +29,7 @@ docker run -p 8888:8888 \
            -v $(PWD)/2_praxis/:/home/jovyan/praxis/ \
            -v $(PWD)/data/:/home/jovyan/data/ \
            -v $(PWD)/utils/:/home/jovyan/utils/ \
-           bhm_workshop
+           bayes_workshop
 ```
 
 And then just copy paste the http://127.... (with token) into your browser.
@@ -46,4 +46,4 @@ If you want to add additional packages you can do so in two ways:
 - [ ] Theorie: Einbauen, wann bayes modellierung besonders sinnvoll ist (ML vs. Stat Modeling).
 - [ ] Theorie: Übergang von P(H|D) zu real-world Modell glatter machen.
 - [ ] Praxis: Teil I und II in verschiedenen Sessions. 
-- [ ] Praxis: Teil 0 hinzufügen: Sampling from posterior from scratch (Sampling idee kennenlernen).
+- [ ] Praxis: Teil 0 hinzufügen: Sampling from posterior from scratch (Sampling Idee kennenlernen).
