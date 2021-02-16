@@ -41,9 +41,9 @@ If you want to add additional packages you can do so in two ways:
 
 ## TODOs
 
-- [ ] Theorie: Besseres intuitives Beispiel wählen.
+- [ ] ~Theorie: Besseres intuitives Beispiel wählen.~
 - [ ] Theorie: Ausbauen von Pymc3 Teil.
 - [ ] Theorie: Einbauen, wann bayes modellierung besonders sinnvoll ist (ML vs. Stat Modeling).
 - [ ] Theorie: Übergang von P(H|D) zu real-world Modell glatter machen.
-- [ ] Praxis: Teil I und II in verschiedenen Sessions. 
-- [ ] Praxis: Teil 0 hinzufügen: Sampling from posterior from scratch (Sampling Idee kennenlernen).
+- [X] Praxis: Teil I und II in verschiedenen Sessions. 
+- [X] Praxis: Teil 0 hinzufügen: Sampling from posterior from scratch (Sampling Idee kennenlernen).
